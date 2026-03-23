@@ -31,7 +31,7 @@ function Home({ products, addToCart, setSelectedProduct, setView }) {
                 <div key={product.id} className="thumbnail">
                     <div className="card">
                         <div onClick={() => { setSelectedProduct(product); setView("detail"); }} style={{ cursor: 'pointer' }}>
-                            {/* FIXAD RAD: Hämtar nu från backend/public via /images route */}
+                            {/*Hämtar nu från backend/public via /images route */}
                             <img 
                                 src={`http://localhost:3001/images/${product.image}`} 
                                 alt={product.name} 

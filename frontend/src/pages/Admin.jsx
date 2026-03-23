@@ -12,7 +12,7 @@ function Admin({ products, setProducts, setView }) {
   const [img, setImg] = useState("");
   const [editId, setEditId] = useState(null);
 
-  const correctPassword = "zamzam123"; // <--- HÄR ÄR DITT LÖSENORD
+  const correctPassword = "zamzam123"; // <--- LÖSENORD FÖR ADMIN
 
   const handleLogin = (e) => {
     e.preventDefault();

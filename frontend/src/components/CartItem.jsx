@@ -3,7 +3,6 @@ function CartItem({ item, removeFromCart, index }) {
     <div className="cart-item" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "15px", borderBottom: "1px solid #eee" }}>
       <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
         
-        {/* FIXAD RAD: Hämtar nu bilden från backend-servern */}
         <img 
           src={`http://localhost:3001/images/${item.image}`} 
           alt={item.name} 
